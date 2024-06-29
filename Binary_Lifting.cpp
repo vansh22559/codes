@@ -3,6 +3,8 @@ using namespace std;
 #define endl "\n"
 #define int long long
 
+//practise question : https://cses.fi/problemset/task/1687/
+
 int up[200005][20];
 
 void binaryLifting(vector<int> adj[],int node,int par){
