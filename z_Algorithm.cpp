@@ -4,6 +4,10 @@ using namespace std;
 #define endl "\n"
 #define int long long
 
+// The Z-function for this string is an array of length n where the  
+// i-th element is equal to the greatest number of characters starting from the position  
+// i that coincide with the first characters of string s .
+
 vector<int> z_function(string s) {
     int n = s.size();
     int l = 0 , r = 0;
