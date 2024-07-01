@@ -23,7 +23,7 @@ void binaryLifting(vector<int> adj[],int node,int par){
     }
 }
 
-int help(vector<int> adj[],int node,int jump_req){
+int lift_node(vector<int> adj[],int node,int jump_req){
     if(node == -1 || jump_req == 0){
         return node;
     }
