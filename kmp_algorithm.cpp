@@ -4,6 +4,8 @@ using namespace std;
 #define endl "\n"
 #define int long long
 
+// kmp[i]  is the length of the longest proper prefix of the substring  
+// s[0....i] which is also a suffix of this substring.
 
 vector<int> kmp(string& s){
     int n = s.size();
